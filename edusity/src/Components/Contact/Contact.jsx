@@ -39,13 +39,13 @@ const Contact = () => {
         <p>Feel free to reach out through contact form or find our contact 
             information below. Your feedback, questions, and suggestions are 
             important to us as we strive to provide exceptional service to our 
-            university community.
+            university community.</p>
             <ul>
                 <li><img src={mail_icon} alt=''/>Contact@edusity.dev</li>
                 <li><img src={phone_icon} alt=''/>+1 123-46-7890</li>
                 <li><img src={location_icon} alt=''/>77 Masachusetts Ave, Cambridge<br/> MA 02139, United States</li>
             </ul>
-        </p>
+        
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>
